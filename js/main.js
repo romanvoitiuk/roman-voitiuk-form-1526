@@ -19,8 +19,8 @@ let form = document.querySelector("form");
 // READY TO START CODING
 // Start with your function here
 // (come up with the meaningful name).
-function handleForm() {
-            
+function handleForm(e) {
+         e.preventDefault()
     // START WITH INITIALLY 2 "EMPTY BUCKETS" (DATA/ERRORS) 
     
     // Declare object that will store the form-data
